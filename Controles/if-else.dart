@@ -1,15 +1,15 @@
 import 'dart:math';
 
-// main() {
-//   // Random() ele irá sortear numeros aleatorios / .nextInt() dentro do parentese irá setar a quantidade limite o exemplo está até 11
-//   var nota = Random().nextInt(11);
+main() {
+  // Random() ele irá sortear numeros aleatorios / .nextInt() dentro do parentese irá setar a quantidade limite o exemplo está até 11
+  var nota = Random().nextInt(11);
 
-//   print("Nota Sorteada $nota");
+  print("Nota Sorteada $nota");
 
-//   var frase = nota >= 7 // Outra maneira de criar um IF-ELSE
-//       ? "Nota na media "
-//       : "nota fora da media";
-//   print(frase);
+  var frase = nota >= 7 // Outra maneira de criar um IF-ELSE
+      ? "A Nota $nota está na media "
+      : "nota fora da media a nota foi: $nota";
+  print(frase);
 
 // if (nota >= 7) { // maniera mais ultilizadas
 //   print("Nota: $nota");
@@ -27,12 +27,4 @@ import 'dart:math';
 
 //     print("ola mundo");
 // }
-
-void main(List<String> args) {
-  var nota = 2.5;
-
-  if (nota >= 9.5) ;
-  {
-    print("Parabêns! Você foi brilhanrte!");
-  }
 }

@@ -1,0 +1,36 @@
+Para receber um valor de entrada usamos a importa io
+import 'dart:io';
+
+i = inport
+o = output
+
+[stdin ] Faz parte da biblioteca inportada;
+
+[É uma função da biblioteca = io]
+.readLineSync();
+read = Leia
+Line = Linha
+Sync = Syncronamente
+
+exemplo 1 :
+
+var input = stdin.readLineSync();
+        print(input);
+
+
+Da maneira que está o exemplo 1, irá passar valores de Strings. Para 
+passarmos o vamos de String para inteiro usamos o [int.parse()].
+
+Ficaria da seguinte forma, teriamos que criar uma outra variavel
+para podermos passar o valor de Inteiro para a String.
+
+var input = stdin.readLineSync();
+var idade = int.parse(input);
+
+
+PARA COLOCAR DUAS CONDIÇÕES NO MESMO IF USAMOS
+DOIS  És COMERCIAIS (&&)
+
+
+
+
