@@ -1,0 +1,47 @@
+Metodos e Classe com Dart.
+Classe recebe metodos e valores
+
+Metodos são um bloco de codigos que vai agrupar em instruções.
+
+
+ToString = 
+String(é o retorno)toString(nome do metodo)()
+todos os metodos podem receber paremetros toString não recebe,
+todo metodo é entre parenteses.
+
+
+Aula Classes e Metodos
+
+
+void main(){
+  Celular celularDoGil = Celular(
+    "Blue",5,0.500,5.7);
+  
+   Celular celularDaErika = Celular(
+    "Blue",10,0.500,5.7);
+  
+  print(celularDaErika.toString());
+  print(celularDoGil.toString());
+  double resultado = celularDoGil.valorDoCelular(250);
+  print(resultado);
+}
+
+class Celular { // clasee
+  //Atributus da classe
+  final String cor;
+  final int qtdProce;
+  final double tamanho;
+  final double peso;
+  
+  //Construtor e como criar uma classe e atribuir valor por contrutor usando this.
+  Celular(this.cor,this.qtdProce,this.peso,this.tamanho);
+  
+ // e o que é um Metodo
+  String toString(){
+    return 'Cor $cor, Processado $qtdProce, Tamanho ${tamanho}, Peso ${peso}';
+  }
+  
+  double valorDoCelular(double valor){
+    return valor * qtdProce;
+  }
+}

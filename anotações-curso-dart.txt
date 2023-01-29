@@ -1,0 +1,65 @@
+Null Safet= linguagens que tem null safet
+Kotli Suift
+as linguagens que não tem Java,
+
+Null Safet trás uma inteligência que as 
+variaveis não podem ter valores nulos.
+Exemplos de Null Safet 
+	String? nome;
+	primt(nome);  // dessa maneira mostrara
+a variavel com o valor null.
+
+	String? nome;
+	nome = 'gil';
+	print(nome);
+Com o sinal de Interrogação podemos atribuir
+valores nulls para a variavel.
+
+para garantir que um valor não é nulo mesmo
+ele não recebendo um valor ao iniciar a variavel 
+você pode colocar o sinal de esclamação,
+ao lado da sua variavel.
+	ex
+	string? nome;
+	print(mome!);
+
+Latr String nome: o Late não permite que 
+a variavel receba valores null, pode ser 
+qualquer outro valor menos null.
+
+
+
+If e Swith
+Estrututras de controle de Fluxo.
+    São Estruturas onde nosso blocos de codigos
+vão decidir que caminho seguir.
+
+ex: Suitch
+  int  valorInt = 5;
+switch(valorInt){
+  case 0:
+    print("ZERO");
+    break;
+   case 1:
+    print("Um");
+    break;
+  case 2:
+    print("DOis");
+    break;
+    
+  default:
+    print("Padrão");
+}
+
+Ex: If
+
+bool valorInt = 5;
+if(valorInt){
+print("valor Correto");
+}else{
+Print("valor errado");
+}
+
+
+
+

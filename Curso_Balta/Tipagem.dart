@@ -11,7 +11,7 @@ main() {
       condicao = false;
       print("Fim!");
     } else {
-      print("Erro você digitou $texto");
+      print("Erro você digitou : ($texto)");
     }
   }
 }
